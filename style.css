@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+
+nav ul {
+    list-style: none;
+    background-color: mediumpurple;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    font-family: 'Futura', serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    padding: 10px;
+    border-right: 1px solid #bbb;
+}
+
+main {
+    margin-top: 60px;
+}
+
+
+h1 {
+    font-family: 'Futura', serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Futura', serif;
+    text-align: left;
+    padding-top: 25px;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-bottom: 25px;
+}
+
+#image {
+    width: 600px;
+    height: 400px;
+}
+
+a:hover {
+    color:white;
+    animation-name: font-size;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes font-size {
+  100%  {
+        font-size: 2em;
+    }
+}
+
+.center {
+    display: block;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
